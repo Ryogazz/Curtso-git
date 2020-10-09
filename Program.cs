@@ -6,7 +6,7 @@ namespace Aumento_salario
     {
         static void Main(string[] args)
         {
-            double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            var salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             double percentual;
             if (salario <= 400.0)
